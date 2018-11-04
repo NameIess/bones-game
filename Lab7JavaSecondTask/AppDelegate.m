@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NSObject+Bones.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Bones* bones = [[Bones alloc] init];
+    NSInteger sum = [bones sumOfBones];
+    NSLog(@"Sum of bone's value = %@", [NSNumber numberWithInteger:sum]);
     return YES;
 }
 

@@ -16,6 +16,7 @@
 		328C8CAB218B665A00A4D91B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C8CAA218B665A00A4D91B /* main.m */; };
 		328C8CB5218B665A00A4D91B /* Lab7JavaSecondTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C8CB4218B665A00A4D91B /* Lab7JavaSecondTaskTests.m */; };
 		328C8CC0218B665A00A4D91B /* Lab7JavaSecondTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C8CBF218B665A00A4D91B /* Lab7JavaSecondTaskUITests.m */; };
+		328C8CCF218B672100A4D91B /* Bones.m in Sources */ = {isa = PBXBuildFile; fileRef = 328C8CCE218B672100A4D91B /* Bones.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		328C8CBB218B665A00A4D91B /* Lab7JavaSecondTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab7JavaSecondTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		328C8CBF218B665A00A4D91B /* Lab7JavaSecondTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab7JavaSecondTaskUITests.m; sourceTree = "<group>"; };
 		328C8CC1218B665A00A4D91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328C8CCD218B670900A4D91B /* NSObject+Bones.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Bones.h"; sourceTree = "<group>"; };
+		328C8CCE218B672100A4D91B /* Bones.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bones.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				328C8CA9218B665A00A4D91B /* Info.plist */,
 				328C8CAA218B665A00A4D91B /* main.m */,
 				328C8CA1218B665A00A4D91B /* Lab7JavaSecondTask.xcdatamodeld */,
+				328C8CCD218B670900A4D91B /* NSObject+Bones.h */,
+				328C8CCE218B672100A4D91B /* Bones.m */,
 			);
 			path = Lab7JavaSecondTask;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				328C8CCF218B672100A4D91B /* Bones.m in Sources */,
 				328C8C9D218B665A00A4D91B /* ViewController.m in Sources */,
 				328C8CA3218B665A00A4D91B /* Lab7JavaSecondTask.xcdatamodeld in Sources */,
 				328C8CAB218B665A00A4D91B /* main.m in Sources */,
